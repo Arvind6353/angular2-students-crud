@@ -10,6 +10,7 @@ import {StudentComponent} from '../students/student.component';
 import {PageNotFoundComponent} from './page-not-found.component'
 
 import {StudentModule} from '../students/student.module'
+
 @NgModule({
   declarations: [
     AppComponent,

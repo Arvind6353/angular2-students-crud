@@ -32,19 +32,23 @@
         </div>
     </div>
 
-    <div class="radio">
-        <label>
+    <div class="form-group">
+        <label for="gender" class="col-sm-2 control-label">Gender:</label>
+
+        <div class="radio col-sm-10">
+            <label>
             <input type="radio" name="gender" value="male"
-             [(ngModel)] = 'gender'
+             [(ngModel)] = 'gender' required="required"
             />
             Male
         </label>
-        <label>
+            <label>
             <input type="radio" name="gender" value="female"
-             [(ngModel)] = 'gender'
+             [(ngModel)] = 'gender' required="required"
             />
             Female
         </label>
+        </div>
     </div>
 
     <div class="form-group">
